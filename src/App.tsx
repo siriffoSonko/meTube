@@ -1,12 +1,15 @@
-import { GlobalStyle } from './styles/GlobalStyle'
+import {GlobalStyle} from './styles/GlobalStyle'
 
-import { Greetings } from './components/Greetings'
+import Header from './components/Header/header';
+import Sidebar from "./components/Sidebar/sidebar";
+import HomeScreen from "./screens/homescreen/homeScreen";
 
 export function App() {
-  return (
-    <>
-      <GlobalStyle />
-      <Greetings />
-    </>
-  )
+    return (
+            <GlobalStyle>
+                <Header></Header>
+                <Sidebar></Sidebar>
+                <HomeScreen items={20}></HomeScreen>
+            </GlobalStyle>
+    )
 }
