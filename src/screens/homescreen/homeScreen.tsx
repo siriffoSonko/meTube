@@ -5,7 +5,6 @@ import {ScreenGrid, ScreenContainer} from "./styles";
 
 function HomeScreen(props) {
     return (
-        <div>
             <ScreenContainer>
                 <CategoriesBar/>
                 <ScreenGrid>
@@ -16,7 +15,6 @@ function HomeScreen(props) {
                     }
                 </ScreenGrid>
             </ScreenContainer>
-        </div>
     )
 
 }

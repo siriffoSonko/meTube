@@ -1,8 +1,11 @@
 import React from 'react';
+import {BarContainer} from './styles'
 
 function CategoriesBar(props) {
     return (
-        <div>categoriesBar</div>
+        <BarContainer>
+            categoriesBar
+        </BarContainer>
     );
 }
 

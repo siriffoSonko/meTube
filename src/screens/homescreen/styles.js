@@ -6,8 +6,10 @@ export const ScreenGrid = styled.div`
   gap: 10px;
   grid-auto-flow: row;
   border-style: solid;
+  min-width: 100%;
 `
 export const ScreenContainer = styled.div`
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;

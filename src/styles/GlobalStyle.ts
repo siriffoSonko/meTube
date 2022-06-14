@@ -2,9 +2,10 @@ import styled, {createGlobalStyle} from 'styled-components'
 
 export const GlobalStyle = styled.div`
 
+
   width: 100%;
-  height:100vh;
-  
+  height: 100vh;
+
   display: flex;
   flex-direction: column;
 
@@ -18,6 +19,10 @@ export const GlobalStyle = styled.div`
 
   cursor: pointer;
 
+  * {
+    border: 1px solid green;
+  }
+  
   body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -26,4 +31,14 @@ export const GlobalStyle = styled.div`
     height: 100%;
     background-color: aqua;
   }
+`
+export const MainScreenContainer = styled.div`
+  * {
+
+    border: 1px solid yellow;
+    height: 100%;
+  }
+
+  display: flex;
+  height: 90vh;
 `
